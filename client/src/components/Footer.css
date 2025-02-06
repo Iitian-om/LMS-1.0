@@ -1,0 +1,123 @@
+/* variables.css */
+
+:root {
+
+    /* White */
+    --landing-page-nav-text-color: #fff;
+  
+    /* Dark text */
+    --landing-page-body-text-color: #333;
+  
+    /* Dark blue */
+    --landing-page-nav-backgroud-color: #264653;
+  
+    /* Light grey */
+    --landing-page-body-backgroud-color: #f4f4f4;
+  
+    /* Dark blue to light blue gradient */
+    --landing-page-hero-backgroud-color: linear-gradient(135deg, #2a9d8f, #264653);
+  
+  }
+
+/* Footer General Styles */
+.footer {
+    background-color: #1e88e5; /* Blue background */
+    color: #fff;
+    padding: 3rem 1rem;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Footer Container */
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    text-align: left;
+}
+
+/* Footer Sections */
+.footer-section {
+    flex: 1;
+    min-width: 250px;
+    margin: 1rem;
+}
+
+.footer-section h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+/* Footer List */
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.8rem;
+}
+
+.footer-section ul li i {
+    margin-right: 10px;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+    color: #ffeb3b;
+}
+
+/* Social Media Icons */
+.social-icons {
+    margin-top: 1rem;
+}
+
+.social-icons a {
+    margin: 0 8px;
+    font-size: 1.8rem;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #ffeb3b;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+    margin-top: 2rem;
+    border-top: 1px solid #fff;
+    padding-top: 1rem;
+    font-size: 0.9rem;
+    color: #e0e0e0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-section {
+        text-align: center;
+    }
+
+    .footer-section ul li {
+        justify-content: center;
+    }
+}

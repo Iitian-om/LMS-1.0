@@ -1,0 +1,20 @@
+/* variables.css */
+
+:root {
+
+  /* White */
+  --landing-page-nav-text-color: #fff;
+
+  /* Dark text */
+  --landing-page-body-text-color: #333;
+
+  /* Dark blue */
+  --landing-page-nav-backgroud-color: #264653;
+
+  /* Light grey */
+  --landing-page-body-backgroud-color: #f4f4f4;
+
+  /* Dark blue to light blue gradient */
+  --landing-page-hero-backgroud-color: linear-gradient(135deg, #2a9d8f, #264653);
+
+}

@@ -1,0 +1,220 @@
+/* variables.css */
+
+:root {
+
+  /* White */
+  --landing-page-nav-text-color: #fff;
+
+  /* Dark text */
+  --landing-page-body-text-color: #333;
+
+  /* Dark blue */
+  --landing-page-nav-backgroud-color: #264653;
+
+  /* Light grey */
+  --landing-page-body-backgroud-color: #f4f4f4;
+
+  /* Dark blue to light blue gradient */
+  --landing-page-hero-backgroud-color: linear-gradient(135deg, #2a9d8f, #264653);
+
+}
+
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Navigation */
+nav {
+  background-color: #264653;
+  color: #fff;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .logo h1 {
+  font-size: 1.8rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 2rem;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(135deg, #2a9d8f, #264653);
+  color: #fff;
+  text-align: center;
+  padding: 8rem 2rem;
+}
+
+.hero-content h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.cta-btn {
+  padding: 1rem 2rem;
+  background-color: #e9c46a;
+  color: #264653;
+  text-decoration: none;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.cta-btn:hover {
+  background-color: #f4a261;
+}
+
+/* Parent Institute Section */
+.parent-institute {
+  background-color: #fff;
+  text-align: center;
+  padding: 4rem 2rem;
+  border-top: 2px solid #e9c46a;
+  border-bottom: 2px solid #e9c46a;
+}
+
+.parent-institute h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #264653;
+}
+
+.parent-institute p {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  color: #555;
+}
+
+.institute-btn {
+  padding: 0.8rem 1.5rem;
+  background-color: #2a9d8f;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 30px;
+  font-size: 1rem;
+}
+
+.institute-btn:hover {
+  background-color: #21867a;
+}
+
+/* Footer */
+footer {
+  background-color: #264653;
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+}
+
+footer ul {
+  list-style: none;
+  display: contents;
+  justify-content: center;
+}
+
+footer ul li {
+  margin-left: 1rem;
+}
+
+footer ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Apply animation to the 'by IIT Patna' text */
+.logo-subtext {
+  opacity: 0;
+  display: inline-block;
+  animation: fadeIn 1.5s ease-in-out forwards 0.5s;
+  /* Delayed animation */
+}
+
+/* Fade-in animation for hero section headings */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hero-heading {
+  opacity: 0;
+  animation: fadeIn 1.5s ease-in-out forwards;
+}
+
+/* Scroll animations */
+.scroll-animation {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.scroll-animation.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Ensure animations work on all screen sizes */
+@media (max-width: 768px) {
+  .hero-heading {
+    animation: fadeIn 1.2s ease-in-out forwards;
+  }
+
+  .scroll-animation {
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+  }
+}
