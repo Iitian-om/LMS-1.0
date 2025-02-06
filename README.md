@@ -1,7 +1,9 @@
 # LMS-1
+
 It's our Teams College's Capstone - I Project. This is a Learning Management System (LMS) project.
-=======
+
 # EduHub by IITP - Development Roadmap
+=======
 
 🚀 **EduHub by IITP** is an educational platform aimed at enhancing learning experiences through interactive courses, discussions, and gamified achievements. This repository tracks the development progress of the project.
 
@@ -95,9 +97,6 @@ EduHub-by-IITP/
 ├── Project Structure (1.0).txt
 └── README.md
 ```
-
-## 🚀 Contributing
-We welcome contributions! If you have suggestions or want to collaborate, feel free to fork this repo, make changes, and submit a pull request.
 
 ## 🛠 Tech Stack
 - **Frontend:** HTML, CSS, JavaScript
