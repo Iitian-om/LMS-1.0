@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import HeroSection from "./HeroSection"; // Import HeroSection
 import "./LandingPage.css";
 import Footer from "./Footer";
+
 const LandingPage = () => {
   useEffect(() => {
     const scrollElements = document.querySelectorAll(".scroll-animation");
@@ -54,7 +55,7 @@ const LandingPage = () => {
       </section>
 
       {/* Footer Section */}
-      <Footer /> 
+      <Footer />
     </div>
   );
 };

@@ -1,6 +1,6 @@
 {
   "name": "eduhub_by_iitp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.7.2",
@@ -44,5 +44,9 @@
     "EduHub"
   ],
   "author": "IITian-om",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "LMS-1.0"
+  }
 }

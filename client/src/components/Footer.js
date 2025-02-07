@@ -9,7 +9,9 @@ const Footer = () => {
         {/* Column 1: Logo & Description */}
         <div className="footer-section">
           <h3>EduHub by IITP</h3>
-          <p>Empowering students with expertly crafted courses and resources.</p>
+          <p>
+            Empowering students with expertly crafted courses and resources designed for modern learning needs since 2025.
+          </p>
           <div className="social-icons">
             <a href="https://www.facebook.com"><i className="fab fa-facebook"></i></a>
             <a href="https://www.instagram.com"><i className="fab fa-instagram"></i></a>
@@ -21,10 +23,9 @@ const Footer = () => {
         <div className="footer-section">
           <h3>Quick Links</h3>
           <ul>
-            <li><i className="fas fa-angle-right"></i><a href="#courses">Courses</a></li>
-            <li><i className="fas fa-angle-right"></i><a href="#contact">Contact</a></li>
             <li><i className="fas fa-angle-right"></i><a href="#team">Our Founders</a></li>
-            <li><i className="fas fa-angle-right"></i><a href="#privacy">Privacy Policy</a></li>
+            <li><i className="fas fa-angle-right"></i><a href="#terms_of_use">Terms of Use</a></li>
+            <li><i className="fas fa-angle-right"></i><a href="#privacy_policy">Privacy Policy</a></li>
           </ul>
         </div>
 
@@ -41,7 +42,7 @@ const Footer = () => {
 
       {/* Footer Bottom */}
       <div className="footer-bottom">
-        <p>&copy; 2025 EduHub by IITP. All Rights Reserved.</p>
+        <p className="footer-bottom-p">&copy; 2025 EduHub by IITP. All Rights Reserved.</p>
       </div>
     </footer>
   );

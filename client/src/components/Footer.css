@@ -21,9 +21,10 @@
 
 /* Footer General Styles */
 .footer {
-    background-color: #1e88e5; /* Blue background */
+    background-color: #2a9d8f; /* Blue background */
     color: #fff;
-    padding: 3rem 1rem;
+    padding-top: 1%;
+    padding-left: 1%;
     text-align: center;
     font-family: Arial, sans-serif;
 }
@@ -104,6 +105,12 @@
     padding-top: 1rem;
     font-size: 0.9rem;
     color: #e0e0e0;
+}
+
+.footer-bottom-p {
+    font-size: large;
+    font-style: italic;
+    color: aliceblue;
 }
 
 /* Responsive Design */
