@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
-import HeroSection from "./HeroSection"; // Import HeroSection
 import "./LandingPage.css";
+import HeroSection from "./HeroSection"; 
 import Footer from "./Footer";
 
 const LandingPage = () => {

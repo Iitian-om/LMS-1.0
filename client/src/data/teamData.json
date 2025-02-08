@@ -1,0 +1,52 @@
+[
+    {
+        "id": 5,
+        "name": "Dr. Kuldeep Singh",
+        "role": "Course Instructor",
+        "description": "Dr. Kuldeep Singh is the course instructor who provides guidance and expertise for the project.",
+        "photo": "https://cet.iitp.ac.in/moodle/pluginfile.php/58103/user/icon/moove/f1?rev=21928781",
+        "email": "kuldeep.singh@iitp.ac.in",
+        "profileLink": "https://cet.iitp.ac.in/moodle/user/profile.php?id=28542",
+        "Website": "#"
+    },
+    {
+        "id": 1,
+        "name": "Prince Kumar",
+        "role": "Project Manager",
+        "description": "Prince is the project manager who oversees the project's progress and ensures timely delivery.",
+        "photo": "https://cet.iitp.ac.in/moodle/pluginfile.php/58103/user/icon/moove/f1?rev=21928781",
+        "email": "prince.kumar@iitp.ac.in",
+        "profileLink": "https://cet.iitp.ac.in/moodle/user/profile.php?id=28542",
+        "Website": "#"
+    },
+    {
+        "id": 2,
+        "name": "Jane Smith",
+        "role": "Lead Developer",
+        "description": "Jane is the lead developer responsible for the overall architecture and development of the project.",
+        "photo": "https://cet.iitp.ac.in/moodle/theme/image.php/moove/core/1706000481/u/f1",
+        "email": "jane.smith@iitp.ac.in",
+        "profileLink": "https://cet.iitp.ac.in/moodle/user/profile.php?id=297632",
+        "Website": "#"
+    },
+    {
+        "id": 3,
+        "name": "Alice Johnson",
+        "role": "UI/UX Designer",
+        "description": "Alice is the UI/UX designer who creates intuitive and visually appealing designs for the project.",
+        "photo": "https://cet.iitp.ac.in/moodle/pluginfile.php/58103/user/icon/moove/f1?rev=21928781",
+        "email": "alice.johnson@iitp.ac.in",
+        "profileLink": "https://cet.iitp.ac.in/moodle/user/profile.php?id=28542",
+        "Website": "#"
+    },
+    {
+        "id": 4,
+        "name": "Bob Brown",
+        "role": "Backend Developer",
+        "description": "Bob is the backend developer who implements the server-side logic and database interactions.",
+        "photo": "https://cet.iitp.ac.in/moodle/pluginfile.php/58103/user/icon/moove/f1?rev=21928781",
+        "email": "bob.brown@iitp.ac.in",
+        "profileLink": "https://cet.iitp.ac.in/moodle/user/profile.php?id=28542",
+        "Website": "#"
+    }
+]
