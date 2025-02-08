@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import "./LandingPage.css";
 import HeroSection from "./HeroSection"; 
 import Footer from "./Footer";
+import Navbar from "./Navbar";
 
 const LandingPage = () => {
   useEffect(() => {
@@ -31,18 +32,7 @@ const LandingPage = () => {
   return (
     <div>
       {/* Navigation Bar */}
-      {<nav>
-        <div className="logo">
-          <h1>
-            EduHub <sub className="logo-subtext" style={{ fontWeight: 100, fontSize: "45%" }}>by IIT Patna</sub> {/* Apply class here */}
-          </h1>
-        </div>
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#courses">Courses</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>}
+      <Navbar />
 
       {/* Hero Section */}
       <HeroSection />
