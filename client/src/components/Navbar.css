@@ -1,32 +1,85 @@
+/* First, remove or comment out any previous nav-related media queries */
+
 nav {
-    display: flex;
-    justify-content: space-between;
+  background-color: #264653;
+  color: #fff;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 1000;
+}
+
+.nav-logo {
+  z-index: 1001;
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 2rem;
+}
+
+.nav-menu li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Hamburger Menu Styles */
+.hamburger {
+  display: none;
+  cursor: pointer;
+  border: none;
+  background: none;
+  color: white;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  z-index: 1001;
+}
+
+/* Media Query for Mobile */
+@media screen and (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .nav-menu {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    top: 60px;
+    /* Adjust based on your navbar height */
+    left: 0;
+    right: 0;
+    background-color: #264653;
+    flex-direction: column;
     align-items: center;
-    padding: 1rem;
-    background-color: var(--landing-page-nav-backgroud-color);
-    color: #fff;
-}
+    padding: 1rem 0;
+    width: 100%;
+  }
 
-nav .logo {
-    font-size: 1.5rem;
-    /* color: #2a9d8f; */
-}
-
-nav ul {
-    list-style: none;
+  .nav-menu.active {
     display: flex;
-    gap: 1rem;
+  }
+
+  .nav-menu li {
+    margin: 1rem 0;
+  }
+
+  /* Ensure hero section doesn't get overlapped */
+  .hero-section {
+    margin-top: 60px;
+    /* Same as the top position of nav-menu */
+    position: relative;
+    z-index: 1;
+  }
 }
 
-nav ul li {
-    display: inline;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
+/* Add these to your CSS for smoother transitions */
+.nav-menu {
+  transition: all 0.3s ease-in-out;
 }

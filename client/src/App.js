@@ -4,17 +4,20 @@ import LandingPage from "./components/LandingPage";
 import MeetOurTeam from './components/MeetOurTeam';
 import Login from "./components/Login";
 import SignUp from "./components/SignUp";
+import './App.css'; // Make sure this is imported
 
 const App = () => {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<LandingPage />} />
-        <Route path="/meet-our-team" element={<MeetOurTeam />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/signup" element={<SignUp />} />
-      </Routes>
-    </Router>
+    <div className="App">
+      <Router>
+        <Routes>
+          <Route path="/" element={<LandingPage />} />
+          <Route path="/meet-our-team" element={<MeetOurTeam />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/signup" element={<SignUp />} />
+        </Routes>
+      </Router>
+    </div>
   );
 };
 

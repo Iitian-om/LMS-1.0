@@ -183,3 +183,91 @@ footer ul li a:hover {
     transition: opacity 0.8s ease-out, transform 0.8s ease-out;
   }
 }
+
+/* Add these to your existing LandingPage.css */
+
+/* Responsive Navigation */
+.nav-toggle {
+  display: none; /* Hidden by default on desktop */
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+/* Make the existing nav styles more responsive */
+nav {
+  padding: 1rem max(2rem, 5%); /* Use dynamic padding */
+}
+
+nav .logo h1 {
+  font-size: clamp(1.2rem, 3vw, 1.8rem); /* Responsive font size */
+}
+
+/* Parent Institute Section - make it more responsive */
+.parent-institute {
+  padding: clamp(2rem, 5vw, 4rem) clamp(1rem, 3vw, 2rem);
+}
+
+.parent-institute h2 {
+  font-size: clamp(1.5rem, 4vw, 2.5rem);
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  /* Navigation mobile styles */
+  nav {
+    padding: 1rem;
+    position: relative;
+  }
+
+  nav ul {
+    display: none; /* Hide by default on mobile */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #264653;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0;
+  }
+
+  nav ul.active {
+    display: flex;
+  }
+
+  nav ul li {
+    margin: 0.5rem 0;
+  }
+
+  .nav-toggle {
+    display: block;
+  }
+
+  /* Parent Institute Section mobile styles */
+  .parent-institute {
+    text-align: left;
+    padding: 2rem 1rem;
+  }
+
+  .institute-btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 1rem;
+  }
+}
+
+/* Small mobile devices */
+@media screen and (max-width: 480px) {
+  nav .logo h1 {
+    font-size: 1.2rem;
+  }
+
+  .parent-institute h2 {
+    font-size: 1.8rem;
+  }
+
+  .parent-institute p {
+    font-size: 0.9rem;
+  }
+}
