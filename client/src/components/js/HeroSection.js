@@ -1,6 +1,6 @@
 import React from "react";
-import "./LandingPage.css";
-import "./HeroSection.css";
+import "../css/LandingPage.css";
+import "../css/HeroSection.css";
 
 const HeroSection = () => {
   return (

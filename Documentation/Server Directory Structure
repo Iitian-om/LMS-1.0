@@ -1,0 +1,22 @@
+server/
+├── config/
+│   ├── db.js
+│
+├── controllers/
+│   ├── authController.js
+│   ├── courseController.js
+│   ├── userController.js
+│
+├── models/
+│   ├── Course.js
+│   ├── User.js
+│
+├── routes/
+│   ├── authRoutes.js
+│   ├── courseRoutes.js
+│   ├── userRoutes.js
+│
+├── .env
+├── package.json
+├── server.js
+└── ...

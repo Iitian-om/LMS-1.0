@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
-import './MeetOurTeam.css';
-import teamData from '../data/teamData.json';
+import '../css/MeetOurTeam.css';
+import teamData from '../../data/teamData.json';
 import Navbar from './Navbar';
 import Footer from './Footer';
 

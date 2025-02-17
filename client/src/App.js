@@ -1,9 +1,9 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import LandingPage from "./components/LandingPage";
-import MeetOurTeam from './components/MeetOurTeam';
-import Login from "./components/Login";
-import SignUp from "./components/SignUp";
+import LandingPage from "./components/js/LandingPage";
+import MeetOurTeam from './components/js/MeetOurTeam';
+import Login from "./components/js/Login";
+import SignUp from "./components/js/SignUp";
 import './App.css'; // Make sure this is imported
 
 const App = () => {

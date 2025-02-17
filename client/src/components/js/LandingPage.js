@@ -1,12 +1,12 @@
-import React, { useEffect } from "react";
-import "./LandingPage.css";
-import HeroSection from "./HeroSection"; 
-import Footer from "./Footer";
-import Navbar from "./Navbar";
+import React, { useEffect } from 'react';
+import '../css/LandingPage.css';
+import HeroSection from './HeroSection';
+import Footer from './Footer';
+import Navbar from './Navbar';
 
 const LandingPage = () => {
   useEffect(() => {
-    const scrollElements = document.querySelectorAll(".scroll-animation");
+    const scrollElements = document.querySelectorAll('.scroll-animation');
 
     const elementInView = (el, offset = 100) => {
       const elementTop = el.getBoundingClientRect().top;
@@ -16,16 +16,16 @@ const LandingPage = () => {
     const displayScrollElement = () => {
       scrollElements.forEach((el) => {
         if (elementInView(el, 150)) {
-          el.classList.add("visible");
+          el.classList.add('visible');
         }
       });
     };
 
-    window.addEventListener("scroll", displayScrollElement);
+    window.addEventListener('scroll', displayScrollElement);
     displayScrollElement(); // Run on page load
 
     return () => {
-      window.removeEventListener("scroll", displayScrollElement);
+      window.removeEventListener('scroll', displayScrollElement);
     };
   }, []);
 

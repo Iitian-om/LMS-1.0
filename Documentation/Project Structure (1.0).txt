@@ -1,0 +1,26 @@
+LMS-1.0/
+├── client/               # Frontend React application
+│   ├── public/
+│   ├── src/
+│   ├── package.json     # Client-specific dependencies
+│   └── README.md
+│
+├── server/               # Backend Node.js application
+│   ├── config/
+│   ├── models/
+│   ├── routes/
+│   ├── package.json     # Server-specific dependencies
+│   └── server.js
+│
+├── docs/                 # Documentation and project files
+│   ├── LICENSE
+│   ├── SECURITY.md
+│   └── Project Structure.txt
+│
+├── node_modules/
+│
+├── .gitignore           # Root gitignore for entire project
+├── .gitattributes       # Root gitattributes file
+├── package.json         # Root package.json for project scripts
+├── package-lock.json
+└── README.md            # Main project README
